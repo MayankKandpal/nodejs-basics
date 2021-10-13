@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "a repo to explore nodejs basics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayankKandpal/nodejs-basics.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "javascript",
+    "mongodb",
+    "mssql",
+    "web",
+    "API"
+  ],
+  "author": "Mayank Kandpal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayankKandpal/nodejs-basics/issues"
+  },
+  "homepage": "https://github.com/MayankKandpal/nodejs-basics#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
