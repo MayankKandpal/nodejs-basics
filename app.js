@@ -1,6 +1,5 @@
-function sample(){
-    return 'Welcome to the world of Node.JS'
-}
+const log = require("./logger")
 
-console.log(sample())
-console.log(process.pid)
+log.info('This is Info')
+log.warn('This is Warning')
+log.error('This is Error')
